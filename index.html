@@ -1,64 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Escolar</title>
-  <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-  <!-- Cabeçalho com dois menus -->
-  <header>
-    <nav class="nav-externa">
-      <ul>
-        <li><a href="MAT.html">Matemática</a></li>
-        <li><a href="FIS.html">Física</a></li>
-        <li><a href="QUI.html">Química</a></li>
-      </ul>
-    </nav>
-    <nav class="nav-interna">
-      <ul>
-        <li><a href="ATV.html">Atividades</a></li>
-        <li><a href="#provas">Provas</a></li>
-        <li><a href="#relatorios">Relatórios</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Corpo do site -->
-  <main>
-    <section id="matematica">
-      <h2>Matemática</h2>
-      <div class="secao">
-        <article>Atividades de Matemática</article>
-        <article>Provas de Matemática</article>
-        <article>Relatórios de Matemática</article>
-      </div>
+    <header>
+        <div class="menu">
+            <button class="menu-button" onclick="toggleMenu()">
+                <span class="material-icons"> <i class="fa-solid fa-book-skull"></i> ⬅ menu </span>
+            </button>
+            <ul class="menu-list" id="menu-list">
+                <li><a href="index.html">Matemática</a></li>
+                <li><a href="index3.html">Física</a></li>
+                <li><a href="index2.html">Química</a></li>
+                <li><a href="index1.html">Biologia</a></li>
+            </ul>
+            
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#Atividades">Atividades</a></li>
+                <li><a href="#Provas">Provas</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <section class="Portfólio"><div>Portfólio</div>
+        
+        <div class="materias">Matemática</div>
     </section>
+   
 
-    <section id="fisica">
-      <h2>Física</h2>
-      <div class="secao">
-        <article>Atividades de Física</article>
-        <article>Provas de Física</article>
-        <article>Relatórios de Física</article>
-      </div>
-    </section>
-
-    <section id="quimica">
-      <h2>Química</h2>
-      <div class="secao">
-        <article>Atividades de Química</article>
-        <article>Provas de Química</article>
-        <article>Relatórios de Química</article>
-      </div>
-    </section>
-  </main>
-
-  <!-- Rodapé -->
-  <footer>
-    <p>Portal Escolar © 2025 - Desenvolvido pelo Grupo X</p>
-    <p>Contato: portal@escolar.com</p>
-  </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu-list");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    </script>
+    
 </body>
 </html>
