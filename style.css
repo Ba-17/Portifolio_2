@@ -95,6 +95,15 @@ nav ul li a:hover {
       align-items: center; 
   }
 }
+
+.Portifolio{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  color: #000000;
+  flex-direction: column;
+}
 .Atividades {
   font-size: 3rem;
   display: flex;
