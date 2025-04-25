@@ -104,3 +104,20 @@ nav ul li a:hover {
   flex-direction: column;
 }
 
+.Provas {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  color: #000000;
+  flex-direction: column;
+}
+
+.Projetos {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  color: #000000;
+  flex-direction: column;
+}
