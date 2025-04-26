@@ -132,3 +132,26 @@ nav ul li a:hover {
 }
 
 
+   
+
+
+.barra-pesquisa {
+  width: 20%;
+  display: flex;
+
+}
+.barra-pesquisa input{
+  padding: 10px;
+  border: none;
+  width: 90%;
+  border-radius: 10px 0 0 10px;
+}
+.btn-pesquisa {
+  padding: 5px;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+}
+.btn-pesquisa:hover {
+  cursor: pointer;
+}
