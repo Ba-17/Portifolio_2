@@ -132,7 +132,9 @@ nav ul li a:hover {
 }
 
 #A, #B, #C{
-  margin: 26px;
+  margin: 46px;
+  font-size: 32px;
+
 }
 
 #D{
