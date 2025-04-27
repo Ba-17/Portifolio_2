@@ -131,12 +131,6 @@ nav ul li a:hover {
   flex-direction: column;
 }
 
-#A{
-  margin: 26px;
-}
-#B{
-  margin: 26px;
-}
-#C{
+#A, #B, #B{
   margin: 26px;
 }
