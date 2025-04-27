@@ -135,4 +135,16 @@ nav ul li a:hover {
   margin: 26px;
 }
 
+#D{
+  font-family: Tektur, sans-serif;
+  background-color: #a3f3a7c4; 
+}
 
+#E{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  background-color: #4af37d8f;
+}
